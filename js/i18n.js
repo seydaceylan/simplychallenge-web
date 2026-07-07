@@ -14,6 +14,8 @@
       "meta.privacy.description": "Simply Challenge iOS uygulaması gizlilik politikası.",
       "meta.terms.title": "Kullanım Koşulları — Simply Challenge",
       "meta.terms.description": "Simply Challenge iOS uygulaması kullanım koşulları.",
+      "meta.support.title": "Destek — Simply Challenge",
+      "meta.support.description": "Simply Challenge iOS uygulaması destek ve yardım sayfası.",
       "nav.homeAria": "Simply Challenge ana sayfa",
       "nav.mainAria": "Ana navigasyon",
       "nav.features": "Özellikler",
@@ -134,6 +136,22 @@
       "terms.s8.title": "İletişim",
       "terms.s8.text": "Kullanım Koşulları ile ilgili sorularınız için bizimle iletişime geçebilirsiniz.",
       "terms.s8.email": "E-posta: <a href=\"mailto:support@simplychallenge.app\">support@simplychallenge.app</a>",
+      "support.eyebrow": "Yardım",
+      "support.title": "Destek",
+      "support.intro": "Simply Challenge ile ilgili her türlü soru, öneri ve yardım talebiniz için buradayız.",
+      "support.contact.title": "Bize Ulaşın",
+      "support.contact.text": "Sorularınız için e-posta ile bize yazabilirsiniz. Genellikle 1-2 iş günü içinde yanıt veriyoruz.",
+      "support.contact.email": "E-posta: <a href=\"mailto:support@simplychallenge.app\">support@simplychallenge.app</a>",
+      "support.faq.title": "Sıkça Sorulan Sorular",
+      "support.faq.q1": "Aboneliğimi nasıl yönetir veya iptal ederim?",
+      "support.faq.a1": "Abonelikler Apple tarafından yönetilir. iPhone'unuzda Ayarlar > Apple Kimliği > Abonelikler yolunu izleyerek aboneliğinizi görüntüleyebilir, değiştirebilir veya iptal edebilirsiniz.",
+      "support.faq.q2": "Satın alımlarımı nasıl geri yüklerim?",
+      "support.faq.a2": "Ödeme ekranındaki \"Satın alımları geri yükle\" seçeneğini kullanarak daha önce yaptığınız satın alımları yeni cihazınıza taşıyabilirsiniz.",
+      "support.faq.q3": "Verilerim nerede saklanıyor?",
+      "support.faq.a3": "Hedefleriniz ve ilerleme kayıtlarınız cihazınızda saklanır. Ayrıntılar için Gizlilik Politikası sayfamızı inceleyebilirsiniz.",
+      "support.faq.q4": "Uygulama hangi cihazlarda çalışır?",
+      "support.faq.a4": "Simply Challenge iPhone için tasarlanmıştır ve App Store üzerinden indirilebilir.",
+      "support.links.title": "Faydalı Bağlantılar",
     },
     en: {
       "meta.index.title": "Simply Challenge — iOS Habit Tracker",
@@ -144,6 +162,8 @@
       "meta.privacy.description": "Privacy Policy for Simply Challenge iOS app.",
       "meta.terms.title": "Terms of Service — Simply Challenge",
       "meta.terms.description": "Terms of Service for Simply Challenge iOS app.",
+      "meta.support.title": "Support — Simply Challenge",
+      "meta.support.description": "Support and help page for Simply Challenge iOS app.",
       "nav.homeAria": "Simply Challenge home",
       "nav.mainAria": "Main navigation",
       "nav.features": "Features",
@@ -264,6 +284,22 @@
       "terms.s8.title": "Contact",
       "terms.s8.text": "If you have questions about these Terms of Use, you can contact us.",
       "terms.s8.email": "Email: <a href=\"mailto:support@simplychallenge.app\">support@simplychallenge.app</a>",
+      "support.eyebrow": "Help",
+      "support.title": "Support",
+      "support.intro": "We're here for any questions, suggestions, or help requests about Simply Challenge.",
+      "support.contact.title": "Contact Us",
+      "support.contact.text": "You can email us with your questions. We usually reply within 1-2 business days.",
+      "support.contact.email": "Email: <a href=\"mailto:support@simplychallenge.app\">support@simplychallenge.app</a>",
+      "support.faq.title": "Frequently Asked Questions",
+      "support.faq.q1": "How do I manage or cancel my subscription?",
+      "support.faq.a1": "Subscriptions are managed by Apple. On your iPhone, go to Settings > Apple ID > Subscriptions to view, change, or cancel your subscription.",
+      "support.faq.q2": "How do I restore my purchases?",
+      "support.faq.a2": "Use the \"Restore purchases\" option on the paywall screen to transfer your previous purchases to a new device.",
+      "support.faq.q3": "Where is my data stored?",
+      "support.faq.a3": "Your goals and progress records are stored on your device. See our Privacy Policy page for details.",
+      "support.faq.q4": "Which devices does the app support?",
+      "support.faq.a4": "Simply Challenge is designed for iPhone and can be downloaded from the App Store.",
+      "support.links.title": "Useful Links",
     }
   };
 
@@ -271,7 +307,8 @@
     "/index.html": { title: "meta.index.title", description: "meta.index.description", ogTitle: "meta.index.ogTitle", ogDescription: "meta.index.ogDescription" },
     "/": { title: "meta.index.title", description: "meta.index.description", ogTitle: "meta.index.ogTitle", ogDescription: "meta.index.ogDescription" },
     "/privacy.html": { title: "meta.privacy.title", description: "meta.privacy.description" },
-    "/terms.html": { title: "meta.terms.title", description: "meta.terms.description" }
+    "/terms.html": { title: "meta.terms.title", description: "meta.terms.description" },
+    "/support.html": { title: "meta.support.title", description: "meta.support.description" }
   };
 
   var locale = DEFAULT_LOCALE;
@@ -294,6 +331,7 @@
     var page = window.location.pathname.split("/").pop() || "";
     if (page === "privacy.html") return "/privacy.html";
     if (page === "terms.html") return "/terms.html";
+    if (page === "support.html") return "/support.html";
     if (page === "index.html") return "/index.html";
     return "/";
   }
