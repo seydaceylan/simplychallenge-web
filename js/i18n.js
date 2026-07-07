@@ -2,7 +2,7 @@
   "use strict";
 
   var STORAGE_KEY = "simplychallenge-lang";
-  var DEFAULT_LOCALE = "tr";
+  var DEFAULT_LOCALE = "en";
 
   var messages = {
     tr: {
