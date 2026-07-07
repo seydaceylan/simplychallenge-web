@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="620" viewBox="0 0 560 620" fill="none">
+  <!-- Floating shapes -->
+  <circle cx="80" cy="120" r="28" fill="rgba(255,255,255,0.9)" opacity="0.85"/>
+  <circle cx="480" cy="80" r="18" fill="rgba(255,255,255,0.7)"/>
+  <polygon points="420,520 450,460 480,520" fill="#FF6A1A" opacity="0.9"/>
+  <polygon points="60,400 85,350 110,400" fill="#FF6A1A" opacity="0.75"/>
+  <circle cx="500" cy="380" r="12" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Glow -->
+  <ellipse cx="280" cy="340" rx="200" ry="180" fill="url(#heroGlow)" opacity="0.6"/>
+
+  <!-- Phone body -->
+  <g transform="translate(130, 60) rotate(-8 150 250)">
+    <rect x="0" y="0" width="300" height="620" rx="44" fill="#1A1A1A"/>
+    <rect x="8" y="8" width="284" height="604" rx="38" fill="#0A0A0A"/>
+    <rect x="16" y="16" width="268" height="588" rx="32" fill="#111827"/>
+
+    <!-- Screen -->
+    <rect x="24" y="24" width="252" height="572" rx="28" fill="#0F1633"/>
+
+    <!-- Status bar -->
+    <text x="40" y="58" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="600">9:41</text>
+
+    <!-- Activity rings -->
+    <circle cx="150" cy="200" r="70" stroke="#FF6A1A" stroke-width="14" fill="none" stroke-linecap="round" stroke-dasharray="350 440" transform="rotate(-90 150 200)"/>
+    <circle cx="150" cy="200" r="52" stroke="#FF9248" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="260 327" transform="rotate(-90 150 200)"/>
+    <circle cx="150" cy="200" r="36" stroke="#FFB380" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="180 226" transform="rotate(-90 150 200)"/>
+
+    <!-- Ring labels -->
+    <text x="150" y="310" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Daily Goals</text>
+    <text x="150" y="338" fill="rgba(255,255,255,0.55)" font-family="Inter, sans-serif" font-size="13" text-anchor="middle">3 of 4 completed</text>
+
+    <!-- Bottom cards -->
+    <rect x="40" y="380" width="220" height="56" rx="16" fill="#161D3D"/>
+    <rect x="40" y="452" width="220" height="56" rx="16" fill="#161D3D"/>
+    <rect x="40" y="524" width="220" height="56" rx="16" fill="#161D3D"/>
+    <circle cx="68" cy="408" r="12" fill="rgba(255,106,26,0.3)"/>
+    <circle cx="68" cy="480" r="12" fill="rgba(255,106,26,0.3)"/>
+    <circle cx="68" cy="552" r="12" fill="rgba(255,106,26,0.3)"/>
+    <rect x="88" y="398" width="100" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+    <rect x="88" y="470" width="120" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+    <rect x="88" y="542" width="80" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+  </g>
+
+  <defs>
+    <radialGradient id="heroGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 340) scale(200 180)">
+      <stop stop-color="#FF6A1A" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#FF6A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

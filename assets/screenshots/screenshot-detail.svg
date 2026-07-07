@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" fill="none">
+  <rect width="390" height="844" fill="#0F1633"/>
+  <rect x="0" y="0" width="390" height="280" fill="#FF6A1A"/>
+  <text x="32" y="64" fill="#FFFFFF" opacity="0.8" font-family="Inter, sans-serif" font-size="14" font-weight="500">CHALLENGE</text>
+  <text x="32" y="120" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="32" font-weight="700">Morning workout</text>
+  <text x="32" y="156" fill="#FFFFFF" opacity="0.85" font-family="Inter, sans-serif" font-size="16">30 minutes every day</text>
+  <rect x="24" y="240" width="342" height="560" rx="24" fill="#161D3D"/>
+  <text x="48" y="300" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="18" font-weight="600">Progress</text>
+  <text x="48" y="340" fill="rgba(255,255,255,0.5)" font-family="Inter, sans-serif" font-size="14">Day 12 of 30</text>
+  <rect x="48" y="360" width="294" height="10" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="48" y="360" width="118" height="10" rx="5" fill="#FF6A1A"/>
+  <text x="48" y="420" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="18" font-weight="600">Reminder</text>
+  <rect x="48" y="440" width="294" height="56" rx="16" fill="#0F1633"/>
+  <text x="68" y="474" fill="rgba(255,255,255,0.7)" font-family="Inter, sans-serif" font-size="15">Every day at 7:00 AM</text>
+  <rect x="48" y="640" width="294" height="120" rx="20" fill="rgba(255,106,26,0.12)"/>
+  <text x="195" y="700" fill="#FF6A1A" font-family="Inter, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Mark as complete today</text>
+</svg>

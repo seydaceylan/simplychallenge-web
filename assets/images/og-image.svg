@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0F1633"/>
+  <circle cx="900" cy="120" r="200" fill="rgba(255,106,26,0.12)"/>
+  <circle cx="1050" cy="500" r="150" fill="rgba(255,255,255,0.04)"/>
+  <image href="../icons/app-icon.png" x="80" y="174" width="96" height="96"/>
+  <text x="80" y="290" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="56" font-weight="700">Simply Challenge</text>
+  <text x="80" y="360" fill="rgba(255,255,255,0.55)" font-family="Inter, sans-serif" font-size="28">Küçük Adımlar. Büyük Değişimler.</text>
+</svg>
